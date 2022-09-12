@@ -169,7 +169,7 @@ const MakeWidget: FC = () => {
               ? takerAddress
               : nativeCurrencyAddress,
           signerToken: makerTokenInfo?.address!,
-          signerAmount: toAtomicString(makerAmount, takerTokenInfo?.decimals!),
+          signerAmount: toAtomicString(makerAmount, makerTokenInfo?.decimals!),
           protocolFee: "7",
           senderWallet: account!,
           senderToken: takerTokenInfo?.address!,
