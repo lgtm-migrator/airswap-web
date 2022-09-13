@@ -62,7 +62,9 @@
     "you": "You",
     "canceled": "Canceled",
     "taken": "Taken",
-    "fee": "Fee"
+    "fee": "Fee",
+    "expiry": "Expiry",
+    "pair": "Pair"
   },
   "information": {
     "join.title": "Join AirSwap",
@@ -152,7 +154,10 @@
     "enterCounterPartyAddressOrENS": "Enter counterparty address or ENS",
     "copyLink": "Copy link",
     "expiryShouldBeMoreThan0": "Expiry should be more than 0",
-    "enterValidTakerAddress": "Enter valid taker address"
+    "enterValidTakerAddress": "Enter valid taker address",
+    "removeFromList": "Remove from list",
+    "youHaveNoOpenOTCOrders": "You have no open OTC orders",
+    "startByCreatingANewOrder": "Start by creating a new swap"
   },
   "toast": {
     "swapComplete": "Swap Complete",
